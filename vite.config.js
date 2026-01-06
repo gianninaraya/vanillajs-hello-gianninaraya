@@ -2,6 +2,9 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   root: './src',
+  
+  base: '/vanillajs-hello-gianninaraya/',
+  
   build: {
     // Specify the output directory for the build. This path is relative to your project root.
     outDir: '../dist',
